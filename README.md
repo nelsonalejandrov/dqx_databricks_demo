@@ -6,8 +6,7 @@ This project demonstrates the implementation of Databricks Data Quality Framewor
 
 The goal of this project is to explore and validate the data quality capabilities of DQX by creating checks for real-world datasets. The workflow includes:
 
-Data Acquisition: Downloaded the Netflix dataset from Kaggle
-.
+Data Acquisition: Downloaded the Netflix dataset from Kaggle.
 
 Data Corruption Simulation: Introduced additional inconsistencies to test the robustness of the data quality framework.
 
