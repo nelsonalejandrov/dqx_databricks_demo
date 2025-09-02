@@ -28,10 +28,17 @@ Invalid records → Written to a Quarantine table for further review.
 ├── notebooks/               # Databricks notebooks
 
 │   └── bronze.ipynb
+
 │   └── generate_noisy_data.ipynb
-│   └── DQ Analysis.ipynb
+
+│   └── DQ Analysis.lvdash.json
 
 ├── data/                    # Sample datasets 
+
+│   └── netflix1.csv
+│   └── netflix_low_quality.csv
+
+├── utils/                    # Sample datasets 
 
 │   └── netflix1.csv
 │   └── netflix_low_quality.csv
