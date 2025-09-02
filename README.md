@@ -23,7 +23,7 @@ Valid records → Written to the Bronze layer.
 
 Invalid records → Written to a Quarantine table for further review.
 
-Project Structure
+## Project Structure
 .
 ├── notebooks/               # Databricks notebooks
 │   └── dqx_data_quality.ipynb
@@ -41,27 +41,8 @@ Demonstration of Bronze layer ingestion and quarantine handling.
 
 Flexible design for testing additional data quality rules.
 
-How to Run
-
-Clone the repository:
-
-git clone <repository_url>
-
-
-Open the notebook in Databricks.
-
-Ensure the Netflix dataset is available in your workspace.
-
-Run the notebook cells sequentially to:
-
-Load and inspect data.
-
-Apply DQX quality checks.
-
-Write valid and invalid records to respective tables.
-
 References
 
-Databricks DQX Documentation
+[https://databrickslabs.github.io/dqx](Databricks DQX Documentation)
 
-Netflix Dataset on Kaggle
+[https://www.kaggle.com/datasets/ariyoomotade/netflix-data-cleaning-analysis-and-visualization/data/code](Netflix Dataset on Kaggle)
