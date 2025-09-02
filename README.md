@@ -1,8 +1,8 @@
-Databricks Data Quality Exploration with DQX
+# Databricks Data Quality Exploration with DQX
 
 This project demonstrates the implementation of Databricks Data Quality Framework (DQX) to explore data quality capabilities, using a Netflix dataset as a case study.
 
-Project Overview
+## Project Overview
 
 The goal of this project is to explore and validate the data quality capabilities of DQX by creating checks for real-world datasets. The workflow includes:
 
