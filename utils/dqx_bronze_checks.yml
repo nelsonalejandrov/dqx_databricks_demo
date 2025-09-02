@@ -1,0 +1,15 @@
+- check:
+    arguments:
+      column: show_id
+      trim_strings: true
+    function: is_not_null_and_not_empty
+  criticality: error
+  name: show_id_is_null_or_empty
+- check:
+    arguments:
+      column: show_id
+      negate: false
+      regex: ^s\d+$
+    function: regex_match
+  criticality: error
+  name: invalid_show_id_format
