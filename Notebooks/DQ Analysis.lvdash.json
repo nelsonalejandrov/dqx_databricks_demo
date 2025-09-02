@@ -1,0 +1,77 @@
+{
+  "datasets": [
+    {
+      "name": "814497e8",
+      "displayName": "Netflix Bronze Demo Shows Data Overview",
+      "queryLines": [
+        "SELECT exploded_error.name\r\n",
+        "FROM quarantine_dqx_demo_bronze_netflix_shows\r\n",
+        "LATERAL VIEW explode(_errors) as exploded_error"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "name": "78c7bbda",
+      "displayName": "Untitled page",
+      "layout": [
+        {
+          "widget": {
+            "name": "70f85273",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "814497e8",
+                  "fields": [
+                    {
+                      "name": "name",
+                      "expression": "`name`"
+                    },
+                    {
+                      "name": "count(*)",
+                      "expression": "COUNT(`*`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "name",
+                  "scale": {
+                    "type": "categorical"
+                  },
+                  "displayName": "name"
+                },
+                "y": {
+                  "fieldName": "count(*)",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "Count of Records"
+                }
+              }
+            }
+          },
+          "position": {
+            "x": 1,
+            "y": 1,
+            "width": 3,
+            "height": 6
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS"
+    }
+  ],
+  "uiSettings": {
+    "theme": {
+      "widgetHeaderAlignment": "ALIGNMENT_UNSPECIFIED"
+    }
+  }
+}
