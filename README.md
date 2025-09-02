@@ -27,25 +27,30 @@ Invalid records → Written to a Quarantine table for further review.
 .
 ├── notebooks/               # Databricks notebooks
 
-│   └── dqx_data_quality.ipynb
+│   └── bronze.ipynb
+│   └── generate_noisy_data.ipynb
+│   └── DQ Analysis.ipynb
 
-├── data/                    # Sample datasets (if included)
+├── data/                    # Sample datasets 
+
+│   └── netflix1.csv
+│   └── netflix_low_quality.csv
 
 ├── README.md                # Project documentation
 
 └── requirements.txt         # Python dependencies
 
-Key Features
+## Key Features
 
-Implementation of row-level quality checks with DQX.
+- Implementation of row-level quality checks with DQX.
 
-Separation of valid and invalid records for ETL workflows.
+- Separation of valid and invalid records for ETL workflows.
 
-Demonstration of Bronze layer ingestion and quarantine handling.
+- Demonstration of Bronze layer ingestion and quarantine handling.
 
-Flexible design for testing additional data quality rules.
+- Flexible design for testing additional data quality rules.
 
-References
+## References
 
 [Databricks DQX Documentation](https://databrickslabs.github.io/dqx)
 
