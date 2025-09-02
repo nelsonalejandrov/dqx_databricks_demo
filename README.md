@@ -24,7 +24,7 @@ Valid records → Written to the Bronze layer.
 Invalid records → Written to a Quarantine table for further review.
 
 ## Project Structure
-.
+
 ├── notebooks/               # Databricks notebooks
 
 │   └── bronze.ipynb
