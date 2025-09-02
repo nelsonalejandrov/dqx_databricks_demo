@@ -36,16 +36,14 @@ Invalid records → Written to a Quarantine table for further review.
 ├── data/                    # Sample datasets 
 
 │   └── netflix1.csv
+
 │   └── netflix_low_quality.csv
 
-├── utils/                    # Sample datasets 
+├── utils/                    # Utility files
 
-│   └── netflix1.csv
-│   └── netflix_low_quality.csv
+│   └── dqx_bronze_checks.yml
 
-├── README.md                # Project documentation
-
-└── requirements.txt         # Python dependencies
+└── README.md                # Project documentation
 
 ## Key Features
 
