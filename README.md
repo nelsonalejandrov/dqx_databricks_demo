@@ -43,6 +43,6 @@ Flexible design for testing additional data quality rules.
 
 References
 
-[https://databrickslabs.github.io/dqx](Databricks DQX Documentation)
+[Databricks DQX Documentation](https://databrickslabs.github.io/dqx)
 
-[https://www.kaggle.com/datasets/ariyoomotade/netflix-data-cleaning-analysis-and-visualization/data/code](Netflix Dataset on Kaggle)
+[Netflix Dataset on Kaggle](https://www.kaggle.com/datasets/ariyoomotade/netflix-data-cleaning-analysis-and-visualization/data/code)
