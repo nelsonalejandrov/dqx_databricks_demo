@@ -28,8 +28,11 @@ Invalid records → Written to a Quarantine table for further review.
 ├── notebooks/               # Databricks notebooks
 
 │   └── dqx_data_quality.ipynb
+
 ├── data/                    # Sample datasets (if included)
+
 ├── README.md                # Project documentation
+
 └── requirements.txt         # Python dependencies
 
 Key Features
